@@ -47,3 +47,14 @@ rm -rf ~/.config/nvim && mkdir ~/.config/nvim && cp -pr init.lua lua ~/.config/n
 ```sh
 nvim
 ```
+
+## 2. Neovim - Setting options with Lua
+
+```sh
+cd ~/.config/nvim/lua/user
+nvim .
+```
+
+- `:help`
+- `:help options`
+- `:Lexplore` - file explorer on left
